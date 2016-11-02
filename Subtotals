@@ -1,6 +1,6 @@
 Source Table:
 
-|ROLE|DEPT  	|SAL |
+|ROLE       |DEPT  	|SAL |
 |---------------|-------|----| 
 |Analyst   	    |30    	|5500|
 |Developer	    |20    	|2570|
