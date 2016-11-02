@@ -1,6 +1,6 @@
 Source Table:
 
-ROLE           	DEPT  	SAL
+ROLE						DEPT		SAL
 Analyst   	    30    	5500
 Developer	      20    	2570
 Analyst	        20	    5000
@@ -22,7 +22,6 @@ Project Manager			                5500    	5500
 Tech-Lead     	3500	    3000    		        6500
 Analyst     	      	    5000     	5500    	10500
               	7750	    12070   	15400   	35220
-
 
 
 If you have used excel then you would be knowing how to get the desired result in the spreadsheet. But here we are looking solutions in SQL(Oracle). 
