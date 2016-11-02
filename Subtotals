@@ -16,14 +16,14 @@ Source Table:
 
 
 
-|ROLE           |DEPT_10|DEPT_20|DEPT_30|SAL  |
-|---------------|-------|-------|-------|-----|
-|Developer      |2500   |2570   |2550   |7620 |
-|Tester         |1750   |1500   |1850   |5100 |
-|Project Manager|       |       |5500   |5500 |
-|Tech-Lead      |3500   |3000   |       |6500 |
-|Analyst        |       |5000   |5500   |10500|
-|               |7750   |12070  |15400  |35220|
+|ROLE           |DEPT_10|DEPT_20|DEPT_30|TOTSAL|
+|---------------|-------|-------|-------|------|
+|Developer      |2500   |2570   |2550   |7620  |
+|Tester         |1750   |1500   |1850   |5100  |
+|Project Manager|       |       |5500   |5500  |
+|Tech-Lead      |3500   |3000   |       |6500  |
+|Analyst        |       |5000   |5500   |10500 |
+|               |7750   |12070  |15400  |35220 |
 
 If you have used excel then you would be knowing how to get the desired result in the spreadsheet. But here we are looking solutions in SQL(Oracle). 
 
