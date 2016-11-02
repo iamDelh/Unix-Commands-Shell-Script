@@ -2,7 +2,7 @@ Source Table:
 
 |ROLE           |DEPT  	|SAL |
 |---------------|-------|----| 
-|Analyst   	    |30    	|5500|
+|Analyst        |30     |5500|
 |Developer	    |20    	|2570|
 |Analyst	      |20	    |5000|
 |Project Manager|30	    |5500|
