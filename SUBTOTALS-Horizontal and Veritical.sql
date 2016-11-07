@@ -94,11 +94,13 @@ ORDER BY ROLE;
 --------------------------------------------------------
 --------------------------------------------------------
 
-To achive both Horizontal and Veritical subtotals we can use Cube extension to Group by
+To achive both Horizontal and Veritical subtotals we can use Cube extension to Group by.
 
 select DEPT, ROLE, sum(sal) sal
 FROM ROLES
 group by cube(DEPT, ROLE);
+
+Outpur of above SQL. 
 
 |DEPT 	|ROLE		      	|SAL  	|
 |-------|---------------	|-------|
@@ -123,6 +125,8 @@ group by cube(DEPT, ROLE);
 |30	|DEVELOPER	   	|2550	|
 |30	|PROJECT MANGAER	|5500	|
 
+
+-- Achiveing Vertical and Horizontal with cube and Pivot
 
 select * from (  
   SELECT NVL(DEPT, 1) DEPT, ROLE, SUM(SAL) SAL  
