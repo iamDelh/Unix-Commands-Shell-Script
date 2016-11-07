@@ -101,27 +101,27 @@ FROM ROLES
 group by cube(DEPT, ROLE);
 
 |DEPT 	|ROLE		      	|SAL  	|
-|-------|---------------|-------|
-|		    |       				|35720	|
-|		    |TESTER		    	|5100 	|
-|	    	|ANALYST	    	|10500	|
-|		    |DEVELOPER	  	|7620 	|
-|		    |TECH-LEAD	  	|7000	  |
-|		    |PROJECT MANGAER|5500	  |
-|10		  |     				  |7750	  |
-|10		  |TESTER	    		|1750	  |
-|10		  |DEVELOPER	  	|2500	  |
-|10		  |TECH-LEAD		  |3500	  |
-|20		  |				        |12570	|
-|20		  |TESTER			    |1500	  |
-|20		  |ANALYST		    |5000	  |
-|20		  |DEVELOPER		  |2570	  |
-|20		  |TECH-LEAD		  |3500	  |
-|30		  |				        |15400	|
-|30		  |TESTER		    	|1850	  |
-|30		  |ANALYST		    |5500	  |
-|30		  |DEVELOPER	   	|2550	  |
-|30		  |PROJECT MANGAER|5500	  |
+|-------|---------------	|-------|
+|	|       		|35720	|
+|	|TESTER		    	|5100 	|
+|	|ANALYST	    	|10500	|
+|	|DEVELOPER	  	|7620 	|
+|	|TECH-LEAD	  	|7000	|
+|	|PROJECT MANGAER	|5500	|
+|10	|     			|7750	|
+|10	|TESTER	    		|1750	|
+|10	|DEVELOPER	  	|2500	|
+|10	|TECH-LEAD		|3500	|
+|20	|			|12570	|
+|20	|TESTER			|1500	|
+|20	|ANALYST		|5000	|
+|20	|DEVELOPER		|2570	|
+|20	|TECH-LEAD		|3500	|
+|30	|			|15400	|
+|30	|TESTER		    	|1850	|
+|30	|ANALYST		|5500	|
+|30	|DEVELOPER	   	|2550	|
+|30	|PROJECT MANGAER	|5500	|
 
 
 select * from (  
