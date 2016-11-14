@@ -20,14 +20,14 @@ Insert into EMPLE (ID,FIRST_NAME,LAST_NAME,START_DATE,END_DATE,SALARY,CITY,DESCR
 
 -----------------------------------------Data EMPLE-------------------------------------
 
-|ID|FIRST_NAME|LAST_NAME|START_DATE |END_DATE |SALARY |CITY     |DESCRIPTION|
-|--|----------|---------|-----------|---------|-------|---------|-----------|
-|01|Jason     |Martin   |25-JUL-96  |25-JUL-06|1234.56|Toronto	|Programmer |
-|04|Celia     |Rice     |24-OCT-82	|21-APR-99|2344.78|Vancouver|Manager    |
-|05|Robert    |Black	|15-JAN-84	|08-AUG-98|2334.78|Vancouver|Tester     |
+|ID|FIRST_NAME|LAST_NAME|START_DATE 	|END_DATE |SALARY |CITY     	|DESCRIPTION|
+|--|----------|---------|---------------|---------|-------|-------------|-----------|
+|01|Jason     |Martin   |25-JUL-96  	|25-JUL-06|1234.56|Toronto	|Programmer |
+|04|Celia     |Rice     |24-OCT-82	|21-APR-99|2344.78|Vancouver	|Manager    |
+|05|Robert    |Black	|15-JAN-84	|08-AUG-98|2334.78|Vancouver	|Tester     |
 |06|Linda     |Green	|30-JUL-87	|04-JAN-96|4322.78|New York	|Tester     |
 |07|DAVID     |LARRY    |31-DEC-90	|12-FEB-98|7897.78|NEW YORK	|MANAGER    |
-|08|James     |Cat      |17-SEP-96	|15-APR-02|1232.78|Vancouver|Tester     |
+|08|James     |Cat      |17-SEP-96	|15-APR-02|1232.78|Vancouver	|Tester     |
 
 
 To Find Nth Record:
@@ -35,8 +35,8 @@ To Find Nth Record:
 --Say 4th Record
 --Output--
 
-|ID|FIRST_NAME|LAST_NAME|START_DATE |END_DATE |SALARY |CITY     |DESCRIPTION|
-|--|----------|---------|-----------|---------|-------|---------|-----------|
+|ID|FIRST_NAME|LAST_NAME|START_DATE 	|END_DATE |SALARY |CITY     	|DESCRIPTION|
+|--|----------|---------|---------------|---------|-------|-------------|-----------|
 |06|Linda     |Green	|30-JUL-87	|04-JAN-96|4322.78|New York	|Tester     |
 
 
