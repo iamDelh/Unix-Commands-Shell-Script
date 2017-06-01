@@ -1,3 +1,3 @@
-# SQL
+# Unix
 
-You can find set of SQL's for same solution using different approach.
+You can find Unix Commands & Scripts here
