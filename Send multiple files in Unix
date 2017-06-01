@@ -1,0 +1,3 @@
+#Send multiple files in Unix
+
+( uuencode file1 f1.txt ; uuencode file2.txt f2 ) | mailx -s "My message" abc@xyz.com
